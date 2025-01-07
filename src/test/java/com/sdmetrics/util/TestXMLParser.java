@@ -59,9 +59,9 @@ public class TestXMLParser {
 
 	@Test
 	public void accessURL() {
-		URL url = getClass().getResource(
-				"/com/sdmetrics/util/tst%20 folder/test & file.xml");
-		assertParses(url.toString());
+		URL url = getClass().getResource(TESTFILE);
+        assert url != null;
+        assertParses(url.toString());
 	}
 
 	@Test

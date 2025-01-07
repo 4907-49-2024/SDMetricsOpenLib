@@ -222,18 +222,18 @@
 </wordlist>
 
 <metricprocedure name="pairwise" 
-	class="com.com.sdmetrics.test.MetricProcedurePairwise" />
+	class="com.sdmetrics.test.MetricProcedurePairwise" />
 <setprocedure name="conditionalset" 
-	class="com.com.sdmetrics.test.SetProcedureCondition" />
+	class="com.sdmetrics.test.SetProcedureCondition" />
 <ruleprocedure name="verbobject" 
-	class="com.com.sdmetrics.test.RuleProcedureVerbObject" />
+	class="com.sdmetrics.test.RuleProcedureVerbObject" />
 
 <scalaroperationdefinition name="maximum" 
-	class="com.com.sdmetrics.test.ScalarOperationMax" />
+	class="com.sdmetrics.test.ScalarOperationMax" />
 <setoperationdefinition name="symmdiff" 
-	class="com.com.sdmetrics.test.SetOperationSymmDiff" />
+	class="com.sdmetrics.test.SetOperationSymmDiff" />
 <booleanoperationdefinition name="xor" 
-	class="com.com.sdmetrics.test.BooleanOperationXOR" />
+	class="com.sdmetrics.test.BooleanOperationXOR" />
 
 <metric name="ClsPairLength1" domain="package">
 <pairwise relation="context" target="class" paircondition="length(_first.name+_second.name) lt 10" />

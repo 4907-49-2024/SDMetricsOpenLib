@@ -4,9 +4,9 @@
 
 <sdmetrics version="2.0" ruleexemption="taggedvalue" exemptiontag="tagname">
 
-<metricprocedure name="customtestmetric" class="com.com.sdmetrics.test.MetricProcedurePairwise" />
-<setprocedure name="customtestset" class="com.com.sdmetrics.test.SetProcedureCondition" />
-<ruleprocedure name="customtestrule" class="com.com.sdmetrics.test.RuleProcedureVerbObject" />
+<metricprocedure name="customtestmetric" class="com.sdmetrics.test.MetricProcedurePairwise" />
+<setprocedure name="customtestset" class="com.sdmetrics.test.SetProcedureCondition" />
+<ruleprocedure name="customtestrule" class="com.sdmetrics.test.RuleProcedureVerbObject" />
 
 <metric name="NumAttr" domain="class" category="Size">
 <description>The number of attributes in the class.((p))
@@ -61,9 +61,9 @@ applies_to="design analysis,me, you , everyone">
 <violation condition="name onlist Java_CPP" />
 </rule>
 
-<scalaroperationdefinition name="maximum" class="com.com.sdmetrics.test.ScalarOperationMax" />
-<setoperationdefinition name="symmdiff" class="com.com.sdmetrics.test.SetOperationSymmDiff" />
-<booleanoperationdefinition name="xor" class="com.com.sdmetrics.test.BooleanOperationXOR" />
+<scalaroperationdefinition name="maximum" class="com.sdmetrics.test.ScalarOperationMax" />
+<setoperationdefinition name="symmdiff" class="com.sdmetrics.test.SetOperationSymmDiff" />
+<booleanoperationdefinition name="xor" class="com.sdmetrics.test.BooleanOperationXOR" />
 
 
 <metric name="Elements" domain="package" category="size" inheritable="true">
