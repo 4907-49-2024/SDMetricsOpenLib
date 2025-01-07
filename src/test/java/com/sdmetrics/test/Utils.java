@@ -5,11 +5,11 @@ import com.sdmetrics.model.ModelElement;
 
 public class Utils {
 
-	public static final String TEST_APP_DIR = "test/com/sdmetrics/app/";
-	public static final String TEST_METRICS_DIR = "test/com/sdmetrics/metrics/";
-	public static final String TEST_MODEL_DIR = "test/com/sdmetrics/model/";
-	public static final String TEST_OUTPUT_DIR = "test/com/sdmetrics/output/";
-	public static final String TEST_UTIL_DIR = "test/com/sdmetrics/util/";
+	public static final String TEST_APP_DIR = "src/test/java/com/sdmetrics/app/";
+	public static final String TEST_METRICS_DIR = "src/test/java/com/sdmetrics/metrics/";
+	public static final String TEST_MODEL_DIR = "src/test/java/com/sdmetrics/model/";
+	public static final String TEST_OUTPUT_DIR = "src/test/java/com/sdmetrics/output/";
+	public static final String TEST_UTIL_DIR = "src/test/java/com/sdmetrics/util/";
 
 	public static String dump(ModelElement e) {
 		MetaModelElement type = e.getType();
