@@ -1,18 +1,11 @@
 package com.sdmetrics.math;
 
+import org.junit.Test;
+
+import java.util.*;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.NoSuchElementException;
-
-import com.sdmetrics.math.MappedCollectionsIterator;
-import org.junit.Test;
 
 public class TestMappedCollectionIterator {
 

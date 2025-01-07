@@ -1,18 +1,13 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-
-import org.junit.Before;
-import org.junit.Test;
-
-import com.sdmetrics.metrics.ProcedureAttributes;
-import com.sdmetrics.metrics.RuleProcedure;
-import com.sdmetrics.metrics.SDMetricsException;
-import com.sdmetrics.metrics.Variables;
 import com.sdmetrics.model.ModelElement;
 import com.sdmetrics.test.MetricTestContext;
 import com.sdmetrics.test.RuleProcedureVerbObject;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 
 public class TestRuleProcedure {

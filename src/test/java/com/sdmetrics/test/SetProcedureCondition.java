@@ -1,14 +1,10 @@
 package com.sdmetrics.test;
 
-import java.util.Collection;
-
 import com.sdmetrics.math.ExpressionNode;
-import com.sdmetrics.metrics.ProcedureAttributes;
-import com.sdmetrics.metrics.SDMetricsException;
-import com.sdmetrics.metrics.Set;
-import com.sdmetrics.metrics.SetProcedure;
-import com.sdmetrics.metrics.Variables;
+import com.sdmetrics.metrics.*;
 import com.sdmetrics.model.ModelElement;
+
+import java.util.Collection;
 
 
 public class SetProcedureCondition extends SetProcedure {

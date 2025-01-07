@@ -1,15 +1,13 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
-import java.util.Collection;
-
-import com.sdmetrics.metrics.ChangeDirectionsAdapter;
+import com.sdmetrics.test.Graph;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sdmetrics.test.Graph;
+import java.util.Collection;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class TestChangeDirectionsAdapter {
 

@@ -1,32 +1,15 @@
 package com.sdmetrics.test;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
+import com.sdmetrics.math.ExpressionNode;
+import com.sdmetrics.math.ExpressionParser;
+import com.sdmetrics.metrics.*;
+import com.sdmetrics.model.*;
+import com.sdmetrics.util.XMLParser;
 
 import java.util.Collection;
 import java.util.List;
 
-import com.sdmetrics.math.ExpressionNode;
-import com.sdmetrics.math.ExpressionParser;
-import com.sdmetrics.metrics.Matrix;
-import com.sdmetrics.metrics.Metric;
-import com.sdmetrics.metrics.MetricStore;
-import com.sdmetrics.metrics.MetricsEngine;
-import com.sdmetrics.metrics.PrivilegedMetricsAccess;
-import com.sdmetrics.metrics.Rule;
-import com.sdmetrics.metrics.RuleEngine;
-import com.sdmetrics.metrics.RuleViolation;
-import com.sdmetrics.metrics.SDMetricsException;
-import com.sdmetrics.metrics.Set;
-import com.sdmetrics.model.MetaModel;
-import com.sdmetrics.model.MetaModelElement;
-import com.sdmetrics.model.Model;
-import com.sdmetrics.model.ModelElement;
-import com.sdmetrics.model.XMIReader;
-import com.sdmetrics.model.XMITransformations;
-import com.sdmetrics.util.XMLParser;
+import static org.junit.Assert.*;
 
 /**
  * Convenience class to read a test fixture consisting of metamodel, metric

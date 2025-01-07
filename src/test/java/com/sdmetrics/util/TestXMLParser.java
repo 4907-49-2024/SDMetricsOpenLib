@@ -1,21 +1,18 @@
 package com.sdmetrics.util;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
-
-import java.net.URL;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-
-import com.sdmetrics.util.SAXHandler;
-import com.sdmetrics.util.XMLParser;
+import com.sdmetrics.test.Utils;
 import org.junit.Before;
 import org.junit.Test;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
-import com.sdmetrics.test.Utils;
+import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 public class TestXMLParser {
 

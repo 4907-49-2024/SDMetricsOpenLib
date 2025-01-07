@@ -1,16 +1,12 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
+import com.sdmetrics.test.MetricTestContext;
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import com.sdmetrics.metrics.Rule;
-import com.sdmetrics.metrics.RuleFilter;
-import com.sdmetrics.metrics.SDMetricsException;
-import org.junit.Test;
-
-import com.sdmetrics.test.MetricTestContext;
+import static org.junit.Assert.assertEquals;
 
 public class TestRuleFilter {
 

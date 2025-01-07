@@ -1,21 +1,15 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
-import java.util.Collection;
-
-import com.sdmetrics.metrics.*;
-import org.junit.Before;
-import org.junit.Test;
-
 import com.sdmetrics.model.MetaModel;
 import com.sdmetrics.model.Model;
 import com.sdmetrics.model.ModelElement;
 import com.sdmetrics.test.MetricTestContext;
+import org.junit.Before;
+import org.junit.Test;
+
+import java.util.Collection;
+
+import static org.junit.Assert.*;
 
 public class TestMetricsEngine {
 

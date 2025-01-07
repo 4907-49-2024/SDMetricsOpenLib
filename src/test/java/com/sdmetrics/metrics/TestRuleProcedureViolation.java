@@ -1,8 +1,7 @@
 package com.sdmetrics.metrics;
 
-import org.junit.Test;
-
 import com.sdmetrics.test.MetricTestContext;
+import org.junit.Test;
 
 
 public class TestRuleProcedureViolation {

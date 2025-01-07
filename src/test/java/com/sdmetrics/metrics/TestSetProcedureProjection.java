@@ -1,18 +1,16 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertSame;
+import com.sdmetrics.math.HashMultiSet;
+import com.sdmetrics.model.ModelElement;
+import com.sdmetrics.test.MetricTestContext;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.Collection;
 import java.util.HashSet;
 
-import com.sdmetrics.metrics.SetProcedureProjection;
-import org.junit.Before;
-import org.junit.Test;
-
-import com.sdmetrics.math.HashMultiSet;
-import com.sdmetrics.model.ModelElement;
-import com.sdmetrics.test.MetricTestContext;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
 
 public class TestSetProcedureProjection {
 

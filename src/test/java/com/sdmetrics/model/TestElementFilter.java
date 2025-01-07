@@ -1,17 +1,12 @@
 package com.sdmetrics.model;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-
-import com.sdmetrics.model.ElementFilters;
-import com.sdmetrics.model.MetaModel;
-import com.sdmetrics.model.MetaModelElement;
-import com.sdmetrics.model.ModelElement;
+import com.sdmetrics.test.Utils;
+import com.sdmetrics.util.XMLParser;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sdmetrics.test.Utils;
-import com.sdmetrics.util.XMLParser;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class TestElementFilter {
 

@@ -1,30 +1,16 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
+import com.sdmetrics.model.MetaModel;
+import com.sdmetrics.model.MetaModelElement;
+import com.sdmetrics.test.*;
+import com.sdmetrics.util.XMLParser;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.Collection;
 import java.util.Iterator;
 
-import com.sdmetrics.metrics.*;
-import org.junit.Before;
-import org.junit.Test;
-
-import com.sdmetrics.model.MetaModel;
-import com.sdmetrics.model.MetaModelElement;
-import com.sdmetrics.test.BooleanOperationXOR;
-import com.sdmetrics.test.MetricProcedurePairwise;
-import com.sdmetrics.test.RuleProcedureVerbObject;
-import com.sdmetrics.test.ScalarOperationMax;
-import com.sdmetrics.test.SetOperationSymmDiff;
-import com.sdmetrics.test.SetProcedureCondition;
-import com.sdmetrics.test.Utils;
-import com.sdmetrics.util.XMLParser;
+import static org.junit.Assert.*;
 
 public class TestMetricStore {
 

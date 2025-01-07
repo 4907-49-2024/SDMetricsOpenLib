@@ -1,17 +1,11 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-
+import com.sdmetrics.model.ModelElement;
+import com.sdmetrics.test.MetricTestContext;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sdmetrics.metrics.Metric;
-import com.sdmetrics.metrics.MetricProcedureConnectedComponents;
-import com.sdmetrics.metrics.ProcedureAttributes;
-import com.sdmetrics.metrics.SDMetricsException;
-import com.sdmetrics.metrics.StronglyConnectedComponents;
-import com.sdmetrics.model.ModelElement;
-import com.sdmetrics.test.MetricTestContext;
+import static org.junit.Assert.assertEquals;
 
 
 public class TestMetricProcedureConnectedComponent {

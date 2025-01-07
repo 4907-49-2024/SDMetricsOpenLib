@@ -1,16 +1,13 @@
 package com.sdmetrics.util;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
-
-import com.sdmetrics.util.SAXHandler;
-import com.sdmetrics.util.XMLParser;
+import com.sdmetrics.test.SAXAttributes;
+import com.sdmetrics.test.Utils;
 import org.junit.Test;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 
-import com.sdmetrics.test.SAXAttributes;
-import com.sdmetrics.test.Utils;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 public class TestSAXHandler {
 

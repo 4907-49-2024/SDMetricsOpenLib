@@ -1,23 +1,15 @@
 package com.sdmetrics.model;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertTrue;
+import com.sdmetrics.test.Utils;
+import com.sdmetrics.util.XMLParser;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashSet;
 
-import com.sdmetrics.model.MetaModel;
-import com.sdmetrics.model.MetaModelElement;
-import com.sdmetrics.model.ModelElement;
-import org.junit.Before;
-import org.junit.Test;
-
-import com.sdmetrics.test.Utils;
-import com.sdmetrics.util.XMLParser;
+import static org.junit.Assert.*;
 
 public class TestModelElement {
 

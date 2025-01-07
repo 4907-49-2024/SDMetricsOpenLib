@@ -1,7 +1,6 @@
 package com.sdmetrics.metrics;
 
 import com.sdmetrics.math.ExpressionParser;
-import com.sdmetrics.metrics.MetricStore;
 
 /**
  * Grants test-classes from other packages access to selected friendly methods

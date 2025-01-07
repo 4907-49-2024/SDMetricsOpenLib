@@ -1,14 +1,14 @@
 package com.sdmetrics.test;
 
-import java.util.Collection;
-import java.util.Iterator;
-
 import com.sdmetrics.math.ExpressionNode;
 import com.sdmetrics.metrics.MetricTools;
 import com.sdmetrics.metrics.SDMetricsException;
 import com.sdmetrics.metrics.SetOperation;
 import com.sdmetrics.metrics.Variables;
 import com.sdmetrics.model.ModelElement;
+
+import java.util.Collection;
+import java.util.Iterator;
 
 public class SetOperationSymmDiff extends SetOperation {
 

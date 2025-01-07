@@ -1,14 +1,11 @@
 package com.sdmetrics.model;
 
-import static com.sdmetrics.model.XMITrigger.TriggerType.GCATTRVAL;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.fail;
+import org.junit.Test;
 
 import java.util.Locale;
 
-import com.sdmetrics.model.XMITrigger;
-import org.junit.Test;
+import static com.sdmetrics.model.XMITrigger.TriggerType.GCATTRVAL;
+import static org.junit.Assert.*;
 
 public class TestXMITrigger {
 

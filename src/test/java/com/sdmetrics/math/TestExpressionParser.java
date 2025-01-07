@@ -1,15 +1,11 @@
 package com.sdmetrics.math;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.HashSet;
 
-import com.sdmetrics.math.ExpressionNode;
-import com.sdmetrics.math.ExpressionParser;
-import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class TestExpressionParser {
 

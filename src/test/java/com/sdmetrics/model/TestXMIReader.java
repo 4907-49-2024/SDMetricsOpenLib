@@ -1,22 +1,17 @@
 package com.sdmetrics.model;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertTrue;
+import com.sdmetrics.model.XMIReader.ProgressMessageHandler;
+import com.sdmetrics.test.Utils;
+import com.sdmetrics.util.XMLParser;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 
-import com.sdmetrics.model.*;
-import org.junit.Before;
-import org.junit.Test;
-
-import com.sdmetrics.model.XMIReader.ProgressMessageHandler;
-import com.sdmetrics.test.Utils;
-import com.sdmetrics.util.XMLParser;
+import static org.junit.Assert.*;
 
 public class TestXMIReader {
 

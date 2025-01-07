@@ -1,16 +1,13 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
-
-import com.sdmetrics.metrics.Metric;
-import com.sdmetrics.metrics.SDMetricsException;
-import org.junit.Before;
-import org.junit.Test;
-
 import com.sdmetrics.model.ModelElement;
 import com.sdmetrics.test.MetricTestContext;
 import com.sdmetrics.test.Utils;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 public class TestMetricProcedureSubstring {
 

@@ -1,10 +1,8 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
 
-import com.sdmetrics.metrics.Description;
+import static org.junit.Assert.assertEquals;
 
 public class TestDescription {
 

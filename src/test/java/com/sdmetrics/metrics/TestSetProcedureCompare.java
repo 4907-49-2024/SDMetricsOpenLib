@@ -1,18 +1,13 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.HashSet;
-
-import com.sdmetrics.metrics.ProcedureAttributes;
-import com.sdmetrics.metrics.SDMetricsException;
-import com.sdmetrics.metrics.Set;
-import com.sdmetrics.metrics.SetProcedureCompare;
+import com.sdmetrics.model.ModelElement;
+import com.sdmetrics.test.MetricTestContext;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sdmetrics.model.ModelElement;
-import com.sdmetrics.test.MetricTestContext;
+import java.util.HashSet;
+
+import static org.junit.Assert.assertEquals;
 
 
 public class TestSetProcedureCompare {

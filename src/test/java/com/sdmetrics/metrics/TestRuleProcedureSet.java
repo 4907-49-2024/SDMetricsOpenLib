@@ -1,10 +1,8 @@
 package com.sdmetrics.metrics;
 
+import com.sdmetrics.test.MetricTestContext;
 import org.junit.Before;
 import org.junit.Test;
-
-import com.sdmetrics.metrics.SDMetricsException;
-import com.sdmetrics.test.MetricTestContext;
 
 
 public class TestRuleProcedureSet {

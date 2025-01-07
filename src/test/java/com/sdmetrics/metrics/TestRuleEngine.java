@@ -1,21 +1,13 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
-import java.util.Collection;
-
+import com.sdmetrics.model.ModelElement;
+import com.sdmetrics.test.MetricTestContext;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sdmetrics.metrics.Rule;
-import com.sdmetrics.metrics.RuleEngine;
-import com.sdmetrics.metrics.SDMetricsException;
-import com.sdmetrics.model.ModelElement;
-import com.sdmetrics.test.MetricTestContext;
+import java.util.Collection;
+
+import static org.junit.Assert.*;
 
 
 public class TestRuleEngine {

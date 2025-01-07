@@ -1,18 +1,11 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.fail;
-
+import com.sdmetrics.model.ModelElement;
+import com.sdmetrics.test.MetricTestContext;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sdmetrics.metrics.Metric;
-import com.sdmetrics.metrics.MetricProcedureAttributeValue;
-import com.sdmetrics.metrics.ProcedureAttributes;
-import com.sdmetrics.metrics.SDMetricsException;
-import com.sdmetrics.model.ModelElement;
-import com.sdmetrics.test.MetricTestContext;
+import static org.junit.Assert.*;
 
 
 public class TestMetricProcedureAttributeValue {

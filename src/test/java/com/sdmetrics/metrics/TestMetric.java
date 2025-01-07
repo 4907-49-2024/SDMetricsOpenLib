@@ -1,12 +1,10 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-
-import com.sdmetrics.metrics.Metric;
+import com.sdmetrics.test.MetricTestContext;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sdmetrics.test.MetricTestContext;
+import static org.junit.Assert.assertEquals;
 
 public class TestMetric {
 

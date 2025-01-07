@@ -1,11 +1,10 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 import com.sdmetrics.model.ModelElement;
 import com.sdmetrics.test.MetricTestContext;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestMetricProcedureSignature {
 

@@ -1,9 +1,8 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-
-import com.sdmetrics.metrics.Glossary;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestGlossary {
 

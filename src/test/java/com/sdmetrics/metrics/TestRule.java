@@ -1,14 +1,12 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.Collections;
-
-import com.sdmetrics.metrics.Rule;
+import com.sdmetrics.test.MetricTestContext;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sdmetrics.test.MetricTestContext;
+import java.util.Collections;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestRule {
 

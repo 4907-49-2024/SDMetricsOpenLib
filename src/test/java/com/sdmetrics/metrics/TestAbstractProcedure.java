@@ -1,20 +1,12 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.fail;
-
-import java.util.Collection;
-
-import com.sdmetrics.metrics.MetricProcedureProjection;
-import com.sdmetrics.metrics.MetricsEngine;
-import com.sdmetrics.metrics.ProcedureAttributes;
-import com.sdmetrics.metrics.SDMetricsException;
+import com.sdmetrics.test.MetricTestContext;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sdmetrics.test.MetricTestContext;
+import java.util.Collection;
+
+import static org.junit.Assert.*;
 
 public class TestAbstractProcedure {
 

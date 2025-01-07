@@ -1,24 +1,15 @@
 package com.sdmetrics.model;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
-import java.util.List;
-
-import com.sdmetrics.model.MetaModel;
-import com.sdmetrics.model.XMITransformation;
-import com.sdmetrics.model.XMITransformations;
-import com.sdmetrics.model.XMITrigger;
+import com.sdmetrics.test.SAXAttributes;
+import com.sdmetrics.test.Utils;
+import com.sdmetrics.util.XMLParser;
 import org.junit.Before;
 import org.junit.Test;
 import org.xml.sax.SAXException;
 
-import com.sdmetrics.test.SAXAttributes;
-import com.sdmetrics.test.Utils;
-import com.sdmetrics.util.XMLParser;
+import java.util.List;
+
+import static org.junit.Assert.*;
 
 public class TestXMITransformations {
 

@@ -1,16 +1,14 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import com.sdmetrics.test.Graph;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.Collection;
 import java.util.HashSet;
 
-import com.sdmetrics.metrics.StronglyConnectedComponents;
-import org.junit.Before;
-import org.junit.Test;
-
-import com.sdmetrics.test.Graph;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class TestStronglyConnectedComponents {
 

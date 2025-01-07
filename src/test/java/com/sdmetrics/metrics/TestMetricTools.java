@@ -1,19 +1,11 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-
-import com.sdmetrics.metrics.MetricTools;
+import com.sdmetrics.math.HashMultiSet;
 import org.junit.Test;
 
-import com.sdmetrics.math.HashMultiSet;
+import java.util.*;
+
+import static org.junit.Assert.*;
 
 public class TestMetricTools {
 

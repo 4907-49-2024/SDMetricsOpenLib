@@ -1,16 +1,11 @@
 package com.sdmetrics.metrics;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertTrue;
-
-import com.sdmetrics.metrics.MetricEntry;
-import com.sdmetrics.metrics.SDMetricsException;
+import com.sdmetrics.model.ModelElement;
+import com.sdmetrics.test.MetricTestContext;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sdmetrics.model.ModelElement;
-import com.sdmetrics.test.MetricTestContext;
+import static org.junit.Assert.*;
 
 public class TestSDMetricsException {
 

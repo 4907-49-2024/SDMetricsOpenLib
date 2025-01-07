@@ -1,17 +1,11 @@
 package com.sdmetrics.test;
 
+import com.sdmetrics.math.ExpressionNode;
+import com.sdmetrics.metrics.*;
+import com.sdmetrics.model.ModelElement;
+
 import java.util.Collection;
 import java.util.Comparator;
-
-import com.sdmetrics.math.ExpressionNode;
-import com.sdmetrics.metrics.FilterAttributeProcessor;
-import com.sdmetrics.metrics.Metric;
-import com.sdmetrics.metrics.MetricProcedure;
-import com.sdmetrics.metrics.ProcedureAttributes;
-import com.sdmetrics.metrics.SDMetricsException;
-import com.sdmetrics.metrics.SummationHelper;
-import com.sdmetrics.metrics.Variables;
-import com.sdmetrics.model.ModelElement;
 
 
 public class MetricProcedurePairwise extends MetricProcedure {

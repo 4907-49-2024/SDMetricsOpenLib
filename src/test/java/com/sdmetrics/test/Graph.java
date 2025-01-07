@@ -1,10 +1,10 @@
 package com.sdmetrics.test;
 
+import com.sdmetrics.metrics.StronglyConnectedComponents;
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
-
-import com.sdmetrics.metrics.StronglyConnectedComponents;
 
 /**
  * Graph of string nodes to test the strongly connected components.
