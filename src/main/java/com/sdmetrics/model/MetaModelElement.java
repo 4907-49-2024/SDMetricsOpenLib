@@ -220,7 +220,7 @@ public class MetaModelElement {
 	 * @param isSet <code>true</code> if this is to be a multi-valued attribute,
 	 *        <code>false</code> if it is single-valued.
 	 */
-	public void addAttribute(String attrName, boolean isRef, boolean isSet) {
+	void addAttribute(String attrName, boolean isRef, boolean isSet) {
 		MetaModelElementAttribute attrib = new MetaModelElementAttribute(
 				attrName, isRef, isSet, attributes.size());
 		attributes.put(attrName, attrib);
