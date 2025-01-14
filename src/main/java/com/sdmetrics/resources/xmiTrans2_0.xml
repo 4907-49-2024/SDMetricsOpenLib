@@ -742,6 +742,7 @@ other part of SDMetrics.
 <xmitransformation modelelement="comment" xmipattern="uml:Comment">
 <trigger name="body" type="attrval" attr="body" />
 <trigger name="body" type="ctext" src="body" />
+<trigger name="annotatedElement" type="attrval" attr="annotatedElement" />
 </xmitransformation>
 
 <!-- UML Diagram Information as saved by older versions of Rose, Together, Enterprise Architect,
